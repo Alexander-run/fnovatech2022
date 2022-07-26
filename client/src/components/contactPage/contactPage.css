@@ -1,0 +1,23 @@
+.contact {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    padding: 10px;    
+}
+.singleInput{
+    height: 35px;
+    width: 50vh;
+    margin: 10px auto;
+    border: solid 1px ;
+}
+.richInput{
+    height: 100px;
+    width: 50vh;
+    margin: 10px auto;
+}
+.contact button{
+    width: 50vh;
+    margin: 15px auto;
+}

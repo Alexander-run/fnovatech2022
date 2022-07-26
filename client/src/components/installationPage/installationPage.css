@@ -1,0 +1,16 @@
+#installation_introduce{
+    background-color: rgb(180, 233, 221);
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+#installation_introduce p{
+    font-size: 16pt;
+    width: 50%;
+    margin: auto;
+}
+#installation_introduce iframe{
+    width: 50%;
+}

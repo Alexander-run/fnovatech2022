@@ -1,0 +1,17 @@
+#about_introduce{
+    background-color: wheat;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+#about_introduce p{
+    color: white;
+    font-size: 16pt;
+    width: 50%;
+    margin: auto;
+}
+#about_introduce iframe{
+    width: 50%;
+}

@@ -1,0 +1,9 @@
+.commercial{
+    margin: auto;
+    padding: 10px;
+    width: 80vh;
+}
+.commercial p{
+    font-size: 16pt;
+    margin: 10px;
+}

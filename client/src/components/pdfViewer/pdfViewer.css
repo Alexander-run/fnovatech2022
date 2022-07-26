@@ -1,0 +1,8 @@
+.pdfblock{
+    margin: auto;
+    width: 120vh;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;    
+}

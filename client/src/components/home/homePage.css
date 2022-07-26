@@ -1,0 +1,97 @@
+.home{
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+.home_section{
+    margin: 30px 0;
+}
+h1{
+    font-size: 3vh;
+}
+#home_part1{
+    height: 75vh;
+    background-image: url('../../assert/homeBack.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#home_part1 h1{
+    margin: 10vh 0;
+    color: blanchedalmond;
+}
+#home_part1 button{
+    width: 20vh;
+    height: 5vh;
+    font-size: 2vh;
+    background-color: #B8C7F2;
+    border-color: #B8C7F2;
+    color: black;
+}
+#home_part1 button:hover{
+    background-color: #DFE5F1;
+}
+#home_part2_content{
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+#home_part2_content div{
+    width: 50%;
+    margin: 5px;
+}
+#home_part3{
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    background-color:#E8F5FF;
+    padding: 10px;
+    color: #3D9785;
+}
+.supplier_list {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 15px;
+}
+.supplier_list div{
+    overflow:visible;
+    width: 100px;
+    height: 60px;
+    margin:15px;
+}
+.supplier_list div:hover{
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px 5px #918f8f;
+    transition: all 0.31415s;
+}
+.supplier_list img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#home_part6{
+    padding: 15px;
+    background-color: #F6F6F7;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#home_part6 span{ 
+    margin: 0 20px;
+}
