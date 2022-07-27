@@ -1,31 +1,8 @@
 .app{
   text-align: center;
-}
-.logo{
-  font-size: 5vh;
-}
-.header ul{
-  display: -webkit-flex;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-.navi{
-  text-decoration: none;
-  font-size: x-large;
-  color: black;
-}
-
-.header li{
-  list-style: none;;
-  padding: 6px;
-  border: solid 2px white;
-}
-.header li:hover{
-  transition: 1s;
-  font-style: #1781E2;
-  border-bottom: solid 2px #1781E2;
-  cursor: pointer;
+  flex-direction: column;
+  align-items: center;
 }
 footer{
   margin: 20px;
